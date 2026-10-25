@@ -1,0 +1,18 @@
+Table 2. Disposition (ITT population)
+
+—————————————————————————————————————————————————————————————————————————————————————————————————————
+                                 Placebo     Xanomeline Low Dose   Xanomeline High Dose      Total   
+                                  (N=86)           (N=84)                 (N=84)            (N=254)  
+—————————————————————————————————————————————————————————————————————————————————————————————————————
+End of study status                                                                                  
+  COMPLETED                     58 (67.4%)       25 (29.8%)             27 (32.1%)        110 (43.3%)
+  DISCONTINUED                  28 (32.6%)       59 (70.2%)             57 (67.9%)        144 (56.7%)
+Reason for discontinuation                                                                           
+  adverse event                  8 (9.3%)        44 (52.4%)             40 (47.6%)        92 (36.2%) 
+  death                          2 (2.3%)         1 (1.2%)               0 (0.0%)          3 (1.2%)  
+  lack of efficacy               3 (3.5%)         0 (0.0%)               1 (1.2%)          4 (1.6%)  
+  lost to follow-up              1 (1.2%)         1 (1.2%)               0 (0.0%)          2 (0.8%)  
+  physician decision             1 (1.2%)         0 (0.0%)               2 (2.4%)          3 (1.2%)  
+  protocol violation             2 (2.3%)         1 (1.2%)               3 (3.6%)          6 (2.4%)  
+  study terminated by sponsor    2 (2.3%)         2 (2.4%)               3 (3.6%)          7 (2.8%)  
+  withdrawal by subject         9 (10.5%)        10 (11.9%)              8 (9.5%)         27 (10.6%) 

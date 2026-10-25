@@ -1,0 +1,11 @@
+Table 3. ADAS-Cog(11) change from baseline at Week 24, MMRM (efficacy population)
+
+—————————————————————————————————————————————————————————————————————————————————————
+                       LS mean change (SE)   Difference vs placebo (95% CI)   p value
+—————————————————————————————————————————————————————————————————————————————————————
+Placebo                    2.51 (0.67)                                               
+Xanomeline Low Dose        1.92 (0.75)            -0.59 (-2.85, 1.67)          0.770 
+Xanomeline High Dose       1.68 (0.82)            -0.83 (-3.21, 1.55)          0.648 
+—————————————————————————————————————————————————————————————————————————————————————
+
+Unstructured covariance, REML, Kenward-Roger df; treatment, visit, treatment x visit, baseline, baseline x visit and pooled site. Higher scores are worse.

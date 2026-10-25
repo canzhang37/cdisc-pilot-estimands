@@ -1,0 +1,8 @@
+"id","check","value","met"
+"P1","lowest ADSL agreement, tolerance rule (>= 95%)","88.6% (BMIBL)",FALSE
+"P1","lowest ADSL agreement, R rounding rule (>= 95%)","88.6% (BMIBL)",FALSE
+"P2","recomputed = collected total when 11 items present (all)","797 of 797",TRUE
+"P3","mmrm vs gls: max |d est| (< 1e-4), max |d se| (< 1e-3)","4.3e-06, 1.4e-05",TRUE
+"P4","|MAR - MMRM|, high dose (<= 0.3)","0.02",TRUE
+"P5","J2R shrinkage toward 0, high dose (>= 20%)","43%",TRUE
+"P6","LOCF minus MMRM, high dose (< 0, more favorable)","-0.18",TRUE

@@ -1,0 +1,41 @@
+Table 5. Treatment-emergent adverse events in >= 5% of patients in any arm (safety population)
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+                                                        Placebo     Xanomeline Low Dose   Xanomeline High Dose
+                                                         (N=86)           (N=96)                 (N=72)       
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+Patients with any TEAE                                 65 (75.6%)       84 (87.5%)             69 (95.8%)     
+CARDIAC DISORDERS                                                                                             
+  MYOCARDIAL INFARCTION                                 4 (4.7%)         2 (2.1%)               4 (5.6%)      
+  SINUS BRADYCARDIA                                     2 (2.3%)         7 (7.3%)              8 (11.1%)      
+GASTROINTESTINAL DISORDERS                                                                                    
+  DIARRHOEA                                            9 (10.5%)         5 (5.2%)               3 (4.2%)      
+  NAUSEA                                                3 (3.5%)         3 (3.1%)               6 (8.3%)      
+  SALIVARY HYPERSECRETION                               0 (0.0%)         0 (0.0%)               4 (5.6%)      
+  VOMITING                                              3 (3.5%)         4 (4.2%)               6 (8.3%)      
+GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS                                                          
+  APPLICATION SITE DERMATITIS                           5 (5.8%)         9 (9.4%)               7 (9.7%)      
+  APPLICATION SITE ERYTHEMA                             3 (3.5%)        13 (13.5%)             14 (19.4%)     
+  APPLICATION SITE IRRITATION                           3 (3.5%)         9 (9.4%)              9 (12.5%)      
+  APPLICATION SITE PRURITUS                             6 (7.0%)        23 (24.0%)             21 (29.2%)     
+  APPLICATION SITE VESICLES                             1 (1.2%)         5 (5.2%)               5 (6.9%)      
+  FATIGUE                                               1 (1.2%)         5 (5.2%)               5 (6.9%)      
+INFECTIONS AND INFESTATIONS                                                                                   
+  NASOPHARYNGITIS                                       2 (2.3%)         4 (4.2%)               6 (8.3%)      
+  UPPER RESPIRATORY TRACT INFECTION                     6 (7.0%)         1 (1.0%)               3 (4.2%)      
+NERVOUS SYSTEM DISORDERS                                                                                      
+  DIZZINESS                                             2 (2.3%)         9 (9.4%)              10 (13.9%)     
+  HEADACHE                                              3 (3.5%)         3 (3.1%)               5 (6.9%)      
+  SYNCOPE                                               0 (0.0%)         5 (5.2%)               2 (2.8%)      
+RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS                                                               
+  COUGH                                                 1 (1.2%)         5 (5.2%)               5 (6.9%)      
+SKIN AND SUBCUTANEOUS TISSUE DISORDERS                                                                        
+  BLISTER                                               0 (0.0%)         5 (5.2%)               1 (1.4%)      
+  ERYTHEMA                                              8 (9.3%)        14 (14.6%)             14 (19.4%)     
+  HYPERHIDROSIS                                         2 (2.3%)         4 (4.2%)              8 (11.1%)      
+  PRURITUS                                              8 (9.3%)        21 (21.9%)             26 (36.1%)     
+  RASH                                                  5 (5.8%)        13 (13.5%)             9 (12.5%)      
+  SKIN IRRITATION                                       3 (3.5%)         6 (6.2%)               5 (6.9%)      
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Patients counted once per preferred term; columns by actual treatment.

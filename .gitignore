@@ -1,0 +1,5 @@
+notes/
+.Rhistory
+.RData
+results/*_log.txt
+adam/*.xpt
