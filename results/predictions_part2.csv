@@ -1,0 +1,8 @@
+"id","check","value","met"
+"Q1","application site pruritus and erythema flagged by A1, A2, A3 (high dose)","pruritus TRUE, erythema TRUE",TRUE
+"Q2","double FDR flags fewer PTs than the crude screen (high dose)","3 vs 8",TRUE
+"Q3","Bayesian model flags fewer PTs than the crude screen (high dose)","13 vs 8",FALSE
+"Q4","median days to first application-site reaction, high dose (<= 28)","29.5",FALSE
+"Q5","subgroup interactions: none p < 0.01, at most one p < 0.05","min p 0.22, 0 below 0.05",TRUE
+"Q6","Stan: no divergences, max R-hat < 1.01 (both comparisons)","0 divergences, max R-hat 1.0069",TRUE
+"V3","simulation: >= 2 of 3 planted and <= 3 of 60 null PTs flagged","3 of 3, 0 of 60",TRUE

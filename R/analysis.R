@@ -36,7 +36,8 @@ lsm <- function(fit, ...) emmeans(fit, ~ TRTP | AVISIT, weights = "proportional"
 
 diffs <- function(em) {
   ct <- contrast(em, "trt.vs.ctrl", ref = 1)
-  s <- as.data.frame(summary(ct, infer = TRUE))
+  # fixed sequence, so no Dunnett adjustment
+  s <- as.data.frame(summary(ct, infer = TRUE, adjust = "none"))
   s[, c("contrast", "AVISIT", "estimate", "SE", "df", "lower.CL", "upper.CL", "p.value")]
 }
 
@@ -76,5 +77,5 @@ locf_ancova <- function(d) {
   fit <- lm(CHG ~ TRTP + BASE + SITEGR1, data = w)
   em <- emmeans(fit, ~ TRTP, weights = "proportional")
   list(n = nrow(w), em = as.data.frame(em),
-       diff = as.data.frame(summary(contrast(em, "trt.vs.ctrl", ref = 1), infer = TRUE)))
+       diff = as.data.frame(summary(contrast(em, "trt.vs.ctrl", ref = 1), infer = TRUE, adjust = "none")))
 }

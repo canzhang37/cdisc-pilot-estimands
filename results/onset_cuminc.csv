@@ -1,0 +1,13 @@
+"arm","day","cum_inc","at_risk"
+"Placebo",14,0.0352941176470588,80
+"Placebo",28,0.0982806073861674,72
+"Placebo",56,0.139319303433021,62
+"Placebo",168,0.184439836919714,46
+"Xanomeline Low Dose",14,0.0575154328953721,73
+"Xanomeline Low Dose",28,0.250770809870152,53
+"Xanomeline Low Dose",56,0.379045794959739,37
+"Xanomeline Low Dose",168,0.615626778443603,12
+"Xanomeline High Dose",14,0.138888888888889,64
+"Xanomeline High Dose",28,0.196148119122257,54
+"Xanomeline High Dose",56,0.410816365873768,30
+"Xanomeline High Dose",168,0.517165391361006,13

@@ -1,0 +1,7 @@
+"subgroup","contrast","df1","df2","F","p_interaction"
+"age_group","Xanomeline Low Dose - Placebo",2,168.72,0.238,0.788248708583664
+"age_group","Xanomeline High Dose - Placebo",2,159.6,1.517,0.222586762560693
+"sex","Xanomeline Low Dose - Placebo",1,168.03,0.768,0.382172990594703
+"sex","Xanomeline High Dose - Placebo",1,165.43,1.191,0.276799301279916
+"severity","Xanomeline Low Dose - Placebo",1,165.64,0.084,0.77211740479552
+"severity","Xanomeline High Dose - Placebo",1,168.35,0.232,0.630829362260265

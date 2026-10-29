@@ -28,6 +28,15 @@ test_that("ICE is the first visit after the last observed one, intermittent gaps
   expect_equal(as.character(ice$AVISIT), "Week 16")
 })
 
+test_that("differences from placebo carry unadjusted t intervals", {
+  set.seed(2)
+  d <- data.frame(TRTP = factor(rep(ARMS, each = 30), ARMS), AVISIT = factor(rep(VIS[2:3], 45), VIS[2:3]))
+  d$CHG <- rnorm(90)
+  s <- diffs(emmeans(lm(CHG ~ TRTP * AVISIT, data = d), ~ TRTP | AVISIT))
+  expect_equal(s$upper.CL, s$estimate + qt(0.975, s$df) * s$SE)
+  expect_equal(s$p.value, 2 * pt(-abs(s$estimate / s$SE), s$df))
+})
+
 test_that("Week 24 ANCOVA returns one effect per active arm", {
   set.seed(1)
   d <- data.frame(AVISIT = "Week 24", TRTP = factor(rep(ARMS, each = 20), ARMS), BASE = rnorm(60, 20, 5),

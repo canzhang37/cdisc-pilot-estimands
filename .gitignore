@@ -3,3 +3,5 @@ notes/
 .RData
 results/*_log.txt
 adam/*.xpt
+stan/*.exe
+stan/berry_berry

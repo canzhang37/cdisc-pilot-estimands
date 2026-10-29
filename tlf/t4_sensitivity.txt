@@ -3,11 +3,11 @@ Table 4. Sensitivity analyses, difference in ADAS-Cog(11) change at Week 24 (95%
 ———————————————————————————————————————————————————————————————————————————————————————————————
                                      Low dose vs placebo              High dose vs placebo     
 ———————————————————————————————————————————————————————————————————————————————————————————————
-MMRM, hypothetical (primary)    -0.59 (-2.85, 1.67), p = 0.770   -0.83 (-3.21, 1.55), p = 0.648
+MMRM, hypothetical (primary)    -0.59 (-2.59, 1.40), p = 0.557   -0.83 (-2.92, 1.27), p = 0.437
 Imputation, MAR                 -0.64 (-2.79, 1.51), p = 0.559   -0.85 (-2.80, 1.10), p = 0.393
 Imputation, jump to reference   -0.40 (-1.71, 0.90), p = 0.545   -0.47 (-1.55, 0.60), p = 0.389
 Imputation, copy reference      -0.14 (-1.69, 1.41), p = 0.859   -0.43 (-1.81, 0.94), p = 0.537
-LOCF ANCOVA (pilot method)      -0.47 (-2.30, 1.36), p = 0.781   -1.01 (-2.89, 0.87), p = 0.387
+LOCF ANCOVA (pilot method)      -0.47 (-2.08, 1.15), p = 0.569   -1.01 (-2.66, 0.65), p = 0.233
 ———————————————————————————————————————————————————————————————————————————————————————————————
 
 Imputation: conditional mean imputation with jackknife standard errors (rbmi), Week 24 ANCOVA.

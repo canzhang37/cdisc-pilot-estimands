@@ -4,7 +4,7 @@ The plan is in [sap.md](sap.md), including three amendments. Tables are in `tlf/
 
 ## Summary
 
-Neither dose of xanomeline separated from placebo on ADAS-Cog(11) at Week 24. Under the primary hypothetical estimand, the MMRM difference from placebo was -0.83 points for the high dose (95% CI -3.21 to 1.55, p = 0.65) and -0.59 for the low dose (-2.85 to 1.67, p = 0.77). Because the high-dose test was not significant, the fixed-sequence procedure stops there, and the tipping-point analysis was not needed.
+Neither dose of xanomeline separated from placebo on ADAS-Cog(11) at Week 24. Under the primary hypothetical estimand, the MMRM difference from placebo was -0.83 points for the high dose (95% CI -2.92 to 1.27, p = 0.44) and -0.59 for the low dose (-2.59 to 1.40, p = 0.56). Because the high-dose test was not significant, the fixed-sequence procedure stops there, and the tipping-point analysis was not needed.
 
 Missing data mattered more for the size of the estimate than for the conclusion. Treatment discontinuation was heavy in both active arms, mostly for adverse events (52% and 48% of patients against 9% on placebo), so about 40% of active-arm patients in the efficacy population had no Week 24 value against 18% on placebo. Assuming that patients who stopped an active dose then followed the placebo course (jump to reference) moved the high-dose estimate 43% closer to zero, to -0.47; carrying the last observation forward, the pilot's original approach, moved it away from zero, to -1.01, as expected when scores worsen over time and dropouts leave early. Every analysis had a confidence interval that included zero.
 
@@ -41,8 +41,8 @@ Efficacy population, 234 patients. Unstructured covariance converged.
 | Arm | Patients | Week 24 observed | LS mean change (SE) | Difference vs placebo (95% CI) | p |
 |---|---|---|---|---|---|
 | Placebo | 79 | 65 | 2.51 (0.67) | | |
-| Low dose | 81 | 49 | 1.92 (0.75) | -0.59 (-2.85, 1.67) | 0.770 |
-| High dose | 74 | 41 | 1.68 (0.82) | -0.83 (-3.21, 1.55) | 0.648 |
+| Low dose | 81 | 49 | 1.92 (0.75) | -0.59 (-2.59, 1.40) | 0.557 |
+| High dose | 74 | 41 | 1.68 (0.82) | -0.83 (-2.92, 1.27) | 0.437 |
 
 ![LS means](../figures/lsmeans_over_time.png)
 
@@ -50,13 +50,15 @@ Efficacy population, 234 patients. Unstructured covariance converged.
 
 | Analysis | Low dose vs placebo | High dose vs placebo |
 |---|---|---|
-| MMRM, hypothetical (primary) | -0.59 (-2.85, 1.67) | -0.83 (-3.21, 1.55) |
+| MMRM, hypothetical (primary) | -0.59 (-2.59, 1.40) | -0.83 (-2.92, 1.27) |
 | Imputation, MAR | -0.64 (-2.79, 1.51) | -0.85 (-2.80, 1.10) |
 | Imputation, jump to reference | -0.40 (-1.71, 0.90) | -0.47 (-1.55, 0.60) |
 | Imputation, copy reference | -0.14 (-1.69, 1.41) | -0.43 (-1.81, 0.94) |
-| LOCF ANCOVA (pilot method) | -0.47 (-2.30, 1.36) | -1.01 (-2.89, 0.87) |
+| LOCF ANCOVA (pilot method) | -0.47 (-2.08, 1.15) | -1.01 (-2.66, 0.65) |
 
 ![sensitivity](../figures/sensitivity_forest.png)
+
+Correction: the first version of this readout gave Dunnett-adjusted intervals and p values for the MMRM and LOCF rows, because `emmeans` adjusts treatment-versus-control contrasts by default. The plan tests the two doses in a fixed sequence, so each comparison takes an unadjusted 95% interval; the rows above are the corrected ones (high dose MMRM was -3.21 to 1.55, p = 0.65). Estimates and every verdict are unchanged, and a test now checks that the intervals are unadjusted.
 
 The reference-based intervals are narrower than the MAR interval. The jackknife gives a frequentist standard error, which under jump to reference shrinks along with the effect; this is a known property of reference-based imputation, not a gain in information.
 
@@ -73,7 +75,7 @@ The reference-based intervals are narrower than the MAR interval. The jackknife 
 
 ## Safety
 
-Application-site and skin reactions were the most frequent treatment-emergent adverse events in the active arms: application site pruritus in 7% on placebo, 24% on the low dose and 29% on the high dose, and pruritus in 9%, 22% and 36% (Table 5, by actual treatment). Discontinuation for adverse events was 9%, 52% and 48% (Table 2); which events led to it was not analyzed.
+Application-site and skin reactions were the most frequent treatment-emergent adverse events in the active arms: application site pruritus in 7% on placebo, 24% on the low dose and 29% on the high dose, and pruritus in 9%, 22% and 36% (Table 5, by actual treatment). Discontinuation for adverse events was 9%, 52% and 48% (Table 2). Signal detection, the timing of application-site reactions and subgroup analyses are in [readout_part2.md](readout_part2.md).
 
 ## Limits
 
